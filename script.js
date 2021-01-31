@@ -54,6 +54,7 @@ function storeFormData() {
 
 function processFormData(e) {
     e.preventDefault();
+    // Check if valid then submit user data
     if (validateForm()) {
         storeFormData();
     }
